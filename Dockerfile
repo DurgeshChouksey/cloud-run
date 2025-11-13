@@ -27,4 +27,4 @@ COPY --from=builder /app/dist ./dist
 EXPOSE 8080
 
 # 8️⃣ Start the app
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/server.js"]
